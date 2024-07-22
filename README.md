@@ -27,6 +27,15 @@
 - Processed results in `processed_data/VQE_(...).npz` files
 - Circuit construction/running and data processing/visualization in `vqe.ipynb`
 
+### Decoherence Measurements
+- 8 jobs of 170 circuits, 10k shots
+- Qubits used: [29, 28, 27, 26, 25]
+- Full IBM calibration data in `calibrations/Decoherence_IBM_calibrations_.json` (all jobs)
+- Raw results in `raw_data/Decoherence_(jobname).json` files
+    - ["ctd94fsvdgb0008zhgj0", "ctd955cakxxg008mrqeg", "ctd95tqvdgb0008zhh2g", "ctd96fs1zwrg008cc4n0", "ctd975cakxxg008mrr30", "ctd97vfy6ybg008fb3ng", "ctd98gjy6ybg008fb3s0", "ctd995wakxxg008mrrpg"] 
+- Processed results in `processed_data/Decoherence_(...).npz` files
+- Circuit construction/running and data processing/visualization in `decoherence.ipynb`
+
 ### COP Measurements
 - 8 jobs of 180 circuits, 10k shots
 - Qubits used: [9, 8, 16, 26, 25]
