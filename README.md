@@ -45,25 +45,25 @@
 - Processed results in `processed_data/COP_(...).npz` files
 - Circuit construction/running and data processing/visualization in `sopcop.ipynb`
 
-### Divide and Conquer
+### Splitting Rotations
 #### Coarse
 - 3 jobs of 288 circuits, 10k shots
 - Qubits used: [10, 11, 12, 17, 30, 31, 32, 36, 51]
-- Full IBM calibration data in `calibrations/DaC_coarse_IBM_calibrations.json` (all jobs)
-- Raw results in `raw_data/DaC_coarse_(jobname).json` files
+- Full IBM calibration data in `calibrations/split_coarse_IBM_calibrations.json` (all jobs)
+- Raw results in `raw_data/split_coarse_(jobname).json` files
     - ["csn2qfnea560008fdmm0", "csn2rn2ea560008fdmsg", "csn2st7vwqp0008b0jpg"]
-- Processed results in `processed_data/DaC_(...).npz` files
-- Circuit construction/running and data processing/visualization in `divideandconquer.ipynb`
+- Processed results in `processed_data/split_(...).npz` files
+- Circuit construction/running and data processing/visualization in `splitrotations.ipynb`
 
 #### Fine
 - 20 jobs of 288 circuits, 10k shots
 - Qubits used: [10, 11, 12, 17, 30, 31, 32, 36, 51]
-- Full IBM calibration data in `calibrations/DaC_fine_IBM_calibrations_1/2/3/4/5.json`
-- Raw results in `raw_data/DaC_fine_(jobname).json` files
+- Full IBM calibration data in `calibrations/split_fine_IBM_calibrations_1/2/3/4/5.json`
+- Raw results in `raw_data/split_fine_(jobname).json` files
     - ["csn2v0mvnxy0008dba60", "csn2w91ea560008fdngg", "csn2xdnvnxy0008dbakg", "csn2yja0c2pg008bze8g", "csn2zqpea560008fdp70", "csn30ybvwqp0008b0kxg", "csn3248vwqp0008b0m60", "csn33bn0c2pg008bzfag", "csn34gtvwqp0008b0mh0", "csn35myea560008fdqcg", "csn36vbvnxy0008dbc5g", "csn38180c2pg008bzg5g", "csn39850c2pg008bzg8g", "csn3aehvnxy0008dbcmg", "csn3bky1k2e0008p4350", "csn3crvvwqp0008b0ncg", "csn3dyq0c2pg008bzgzg", "csn3f3wp1vzg008a9js0", "csn3gas0c2pg008bzhf0", "csn3hheea560008fdrvg", "csn3jrv0c2pg008bzhq0", "csn3kzf1k2e0008p445g", "csn3n64p1vzg008a9kh0", "csn3pe9vnxy0008dbe80", "csn3qrzp1vzg008a9kz0", "csn3rzvvnxy0008dberg", "csn3t5gvwqp0008b0qcg", "csn3vbn0c2pg008bzkyg", "csn3wha0c2pg008bzm5g", "csn3xppp1vzg008a9n2g", "csn3ywkea560008fdvt0", "csn4020vwqp0008b0r8g", "csn417w1k2e0008p463g", "csn42dhea560008fdw80", "csn43m6vnxy0008dbftg", "csn44s3vnxy0008dbfyg", "csn460rp1vzg008a9ny0", "csn47851k2e0008p4710", "csn48dhvwqp0008b0sj0", "csn49je1k2e0008p47fg", "csn4as30c2pg008bzp2g", "csn4bzz0c2pg008bzpc0", "csn4d6wea560008fdxx0", "csn4ee1p1vzg008a9q6g", "csn4fnyvnxy0008dbh4g", "csn4gy30c2pg008bzq5g", "csn4j4gea560008fdyvg", "csn4kd51k2e0008p48vg", "csn4mn20c2pg008bzqy0", "csn4ntzvnxy0008dbj2g", "csn4q4wea560008fdzn0", "csn4rd11k2e0008p49c0", "csn4sjeea560008fe02g", "csn4tsb0c2pg008bzs00", "csn4w10vwqp0008b0vng", "csn4x74p1vzg008a9sh0", "csn4ycs1k2e0008p4abg", "csn4zjp1k2e0008p4ah0", "csn50rb1k2e0008p4amg", "csn51yf1k2e0008p4asg"]
     - First 40 have calibrations `1`, Next 20 have calibrations `2`.
-- Processed results in `processed_data/DaC_(...).npz` files
-- Circuit construction/running and data processing/visualization in `divideandconquer.ipynb`
+- Processed results in `processed_data/split_(...).npz` files
+- Circuit construction/running and data processing/visualization in `splitrotations.ipynb`
 
 ### Counterintuitive Regime
 #### String Order Parameters
